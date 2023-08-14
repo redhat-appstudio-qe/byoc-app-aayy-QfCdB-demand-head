@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: dzyp
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-appstudio-qe/byoc-cpek-tenant/byoc-app-aayy/dzyp@sha256:a851bda3f262b29003d376d6258679c4edca88c27bb4fe8eab4dbc09035be402
         name: my-java-quarkus
         ports:
         - containerPort: 8081
