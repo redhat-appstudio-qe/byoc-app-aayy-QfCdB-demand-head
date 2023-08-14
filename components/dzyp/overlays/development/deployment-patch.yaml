@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: dzyp
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - env:
+        - name: POC
+          value: POC
+        image: quay.io/redhat-appstudio-qe/byoc-cpek-tenant/byoc-app-aayy/dzyp@sha256:a851bda3f262b29003d376d6258679c4edca88c27bb4fe8eab4dbc09035be402
+        name: my-java-quarkus
+        resources: {}
+status: {}
